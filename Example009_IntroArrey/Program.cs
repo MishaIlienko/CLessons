@@ -6,12 +6,10 @@
     return result;
 }
 
-int [] array = {18,23,30,58,66,75,38,49,90,555,345,234};
-array [0] = 12;
-Console.WriteLine(array[5]);
-int max = Max(
+int [] array = {18,23,307,58,66,75,38,49,90,555,345,234};
+int result = Max(
     Max(array[0], array[1], array[2]),
     Max(array[3], array[4], array[5]),
     Max(array[6], array[7], array[8])
 );
-Console.WriteLine(max);
+Console.WriteLine(result);
